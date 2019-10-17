@@ -1,4 +1,3 @@
-
 def pi_wal(appr_numbers):
     i = 1
     for i in range(1, appr_numbers + 1):
@@ -9,5 +8,5 @@ def pi_wal(appr_numbers):
 
 
 if __name__ == '__main__':
-    appr_numbers = int(input("Podaj ilość przybliżeń: "))
-    pi_wal(appr_numbers)
+    apprs = int(input("Podaj ilość przybliżeń: "))
+    pi_wal(apprs)
